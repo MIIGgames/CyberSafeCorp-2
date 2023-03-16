@@ -32,10 +32,8 @@
     .titulo-main {
         padding: 4rem;
         width: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        position:absolute;
+        right: 0;
     }
 
     .titulo-main h1 {
