@@ -193,7 +193,7 @@
 }
 .geral {
     max-width: 1200px;
-    margin: 5rem auto;
+    margin: 1rem auto 5rem;
     padding: 10px;
 }
 .titulo-div-5 {
@@ -277,7 +277,7 @@
 
 .contact-form {
   width: auto;
-  margin: 10px auto;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -293,7 +293,7 @@
 .contact-form form {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 300px;
 }
 
 .contact-form label {
