@@ -1,0 +1,163 @@
+.div-1 {
+    background-color: #25211f;
+    height: auto;
+    padding: 20px;
+}
+
+.descricao-1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    width: auto;
+    color: #fff;
+}
+
+.descricao-1 h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.descricao-1 .sub-p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.descricao-1 p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: rgb(202, 201, 201);
+}
+
+/* ====================== DIV-2 ====================== */
+.div-2 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    height: 90vh;
+}
+
+.descricao-2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.descricao-2 h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.descricao-2 p {
+    margin-top: 10px;
+    color: #25211f;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-top: 50px;
+}
+
+.cards .bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dcdbdb63;
+    height: auto;
+    padding: 15px;
+    width: auto;
+    box-shadow: 1px 1px 1px #00000013;
+    border-radius: 10px;
+}
+
+.bloco img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.bloco .descricao-bloco {
+    margin-top: 20px;
+}
+
+.descricao-bloco h2 {
+    color: #25211f;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.descricao-bloco p {
+    margin-top: 20px;
+    color: #25211f;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    /* ====================== DIV-1 ====================== */
+    .descricao-1 h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .descricao-1 p {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+
+    /* ====================== DIV-2 ====================== */
+    .div-2 {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        height: auto;
+    }
+    .descricao-2 h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: left;
+    }
+    .descricao-2 p {
+        font-size: 1.1rem;
+        width: auto;
+        text-align: left;
+    }
+    .cards {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: auto;
+        gap: 2rem;
+    }
+    .cards .bloco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #dcdbdb63;
+        height: auto;
+        padding: 15px;
+        width: auto;
+        box-shadow: 1px 1px 1px #00000013;
+        border-radius: 10px;
+    }
+    .descricao-bloco h2 {
+        color: #25211f;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .descricao-bloco p {
+        font-size: 1.1rem;
+    }
+}
