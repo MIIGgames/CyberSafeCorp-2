@@ -18,7 +18,7 @@
 <body>
     <!-- =================== MENU ================== -->
     <header id="header">
-        <a id="logo" href=""><span>Cyber</span>SafeCorp</a>
+        <a id="logo" href="index.html"><span>Cyber</span>SafeCorp</a>
         <nav id="nav">
           <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
             <span id="hamburger"></span>
@@ -59,7 +59,7 @@
         </div>
 
         <div class="cards">
-            <div class="bloco">
+            <div class="bloco" data-url="../paginas/segurança-terminais.html">
                 <img src="img/img-inicial/img-terminal-banner1.png" alt="">
                 <div class="descricao-bloco">
                     <h2>Segurança de terminais</h2>
@@ -90,7 +90,7 @@
       <section id="servico" class="div-3">
         <h1>Principais aréas sobre cibersegurança</h1>
         <hr>
-        <div class="areas">
+        <div id="div-redirecionada" class="areas">
             <img class="img-areas" src="img/img-inicial/_Penetration-Testing.png" alt="">
             <div class="descricao-areas">
                 <h2>Pen Test</h2>
@@ -104,7 +104,7 @@
             </div>
         </div>
 
-        <div class="areas">
+        <div id="div-continuous" class="areas">
             <img class="img-areas" src="img/img-inicial/_Continuous-security-testing.png" alt="">
             <div class="descricao-areas">
                 <h2>Continuous Security Testing</h2>
@@ -201,9 +201,9 @@
         
       </div>
       
-      
 
       <script src="js/menu.js"></script>
       <script src="js/menu-ancora.js"></script>
+      <script src="js/redirecionamento.js"></script>
 </body>
 </html>

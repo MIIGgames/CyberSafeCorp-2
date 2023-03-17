@@ -1,0 +1,111 @@
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    color: #25211f;
+}
+
+main h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+main h3 {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #25211f;
+}
+
+.card-endpoint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.card-endpoint .bloco-card-endpoin {
+    margin-top: 30px;
+    width: 60%;
+    padding: 20px;
+    height: 50vh;
+    background-color: #7d7c7b0b;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.bloco-card-endpoin p {
+    align-items: center;
+}
+
+.titulo-amarelo {
+    color: #f4d000;
+    font-size: 1.5rem;
+}
+
+.servidor .h2 {
+    font-size: 1.2rem;
+    color: #25211f;
+}
+
+/* ========= SERVIDOR ============ */
+.servidor-1 {
+    height: auto;
+    background-color: #afaeae1e;
+}
+
+.servidor {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.servidor h2 {
+    margin-top: 30px;
+}
+.servidor p {
+    margin-top: 20px;
+    color: #25211f;
+    font-size: 1.2rem;
+}
+.card-servidor {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.card-servidor .bloco-servidor {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco-servidor img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.bloco-servidor h2 {
+    margin-top: 20px;
+    color: #25211f;
+    width: 80%;
+    text-align: center;
+    color: #f4d000;
+}
+
+.bloco-servidor p {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 50px;
+}
