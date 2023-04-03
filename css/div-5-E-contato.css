@@ -357,3 +357,10 @@
   color: #fff;
 }
 }
+
+@media screen and (max-width:880px) {
+  .titulo-div-5 {
+    display: flex;
+    flex-direction: column;
+}
+}

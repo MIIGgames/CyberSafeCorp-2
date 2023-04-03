@@ -111,13 +111,17 @@
 @media screen and (max-width:768px) {
     /* ====================== DIV-1 ====================== */
     .descricao-1 h1 {
-        text-align: center;
+        text-align: left;
         font-size: 2rem;
         margin-top: 20px;
+    }
+    .descricao-1 .sub-p {
+        text-align: left;
     }
     .descricao-1 p {
         color: #fff;
         font-size: 1.2rem;
+        text-align: left;
     }
 
 
@@ -165,5 +169,15 @@
     }
     .descricao-bloco p {
         font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .div-2 {
+        max-width: 900px;
+        margin: auto;
+        padding: 0px;
+        height: auto;
+        width: auto;
     }
 }
