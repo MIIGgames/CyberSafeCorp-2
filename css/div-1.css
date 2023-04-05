@@ -1,0 +1,50 @@
+.div-1 {
+    background-color: #25211f;
+    height: auto;
+    padding: 20px;
+}
+
+.descricao-1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    width: auto;
+    color: #fff;
+}
+
+.descricao-1 h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.descricao-1 .sub-p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.descricao-1 p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: rgb(202, 201, 201);
+}
+
+@media screen and (max-width:768px) {
+    /* ====================== DIV-1 ====================== */
+    .descricao-1 h1 {
+        text-align: left;
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .descricao-1 .sub-p {
+        text-align: left;
+    }
+    .descricao-1 p {
+        color: #fff;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+}
