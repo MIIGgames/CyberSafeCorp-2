@@ -127,20 +127,22 @@
 
     /* ====================== DIV-2 ====================== */
     .div-2 {
-        max-width: 1200px;
-        margin: auto;
-        padding: 20px;
         height: auto;
+        width: auto;
+        margin: 20px;
+        padding: 20px;
     }
     .descricao-2 h1 {
         font-size: 2rem;
         font-weight: 500;
         text-align: left;
+        margin-left: 20px;
     }
     .descricao-2 p {
         font-size: 1.1rem;
         width: auto;
         text-align: left;
+        margin-left: 20px;
     }
     .cards {
         display: flex;
